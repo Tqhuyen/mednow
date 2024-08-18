@@ -9,12 +9,12 @@
 <h2>If you upload your Prescription. Please choose language of question the same with prescription and upload image (PNG,JPG...)</h2>
 
 # Upstage API use
-OCR: OCR extracts text from prescription -> feeds into chatbot
-Embedding: Converts text into vector format to feed into RAG, and from RAG retrieves context
-Translation: Translates from Korean -> English and vice versa English -> Korean
-Chat: used to give answers based on context and answers from 2 finetuned models. Finetune 2 models for deep data and general data, to give the best answer
-Grounded Check: Checks if the information is correct in context
-Layout Analysis: Analyzes PDF files to convert to text, then embeds into Vector DB
+OCR: OCR extracts text from prescription -> feeds into chatbot \
+Embedding: Converts text into vector format to feed into RAG, and from RAG retrieves context \
+Translation: Translates from Korean -> English and vice versa English -> Korean \
+Chat: used to give answers based on context and answers from 2 finetuned models. Finetune 2 models for deep data and general data, to give the best answer \
+Grounded Check: Checks if the information is correct in context \
+Layout Analysis: Analyzes PDF files to convert to text, then embeds into Vector DB 
 
 # Python Version
 Use Python version 3.11 is the best
