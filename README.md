@@ -12,4 +12,4 @@ gradio gradio_demo.py
 ```
 And then go to : http://127.0.0.1:7860
 # Expected outcome
-![Alt text](img_github\Screenshot 2024-08-18 220223.png)
+![Alt text](https://github.com/Tqhuyen/mednow/blob/main/img_github/Screenshot%202024-08-18%20220223.png)
