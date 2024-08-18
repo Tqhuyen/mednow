@@ -5,6 +5,10 @@ Use Python version 3.11 is the best
 cd app
 pip install -r requirements.txt
 ```
+# Setup varible code in .env
+```
+
+```
 # Run code
 Make sure you are in app/ folder
 ```
