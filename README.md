@@ -7,7 +7,10 @@ pip install -r requirements.txt
 ```
 # Setup varible code in .env
 ```
-
+PREDIBASE_API_TOKEN="PREDIBASE_API_TOKEN"
+UPSTAGE_API_KEY="UPSTAGE_API_KEY"
+TAVILY_API_KEY="TAVILY_API_KEY"
+MONGODB_ATLAS_CLUSTER_URI="MONGODB_ATLAS_CLUSTER_URI"
 ```
 # Run code
 Make sure you are in app/ folder
