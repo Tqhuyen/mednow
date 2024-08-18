@@ -1,0 +1,48 @@
+Prompt,Prescription,output,flag,username,timestamp
+"I have a headace, what should I do?",,"If you have a headache, there are several things you can do to alleviate the pain and discomfort:
+
+1. Rest: Lying down in a quiet, dark room can help to reduce the intensity of the headache.
+
+2. Hydrate: Drinking water can help to prevent and relieve headaches. Dehydration can often cause or worsen headaches.
+
+3. Over-the-counter pain relievers: Taking an over-the-counter pain reliever like ibuprofen, acetaminophen, or aspirin can help to reduce the pain. Be sure to follow the recommended dosage.
+
+4. Cold or hot compress: Applying a cold or hot compress to your forehead or the back of your neck can help to soothe the pain.
+
+5. Stretch or massage: Gentle stretching or massage of the neck and shoulders can help to relieve tension that may be contributing to the headache.
+
+6. Avoid triggers: Identify and avoid any known triggers for your headaches, such as certain foods, drinks, or environmental factors.
+
+7. Relaxation techniques: Techniques such as deep breathing, meditation, or progressive muscle relaxation can help to reduce stress and tension, which can often cause headaches.
+
+8. Consult a healthcare professional: If your headaches are severe, frequent, or not responding to over-the-counter treatments, it's important to consult a healthcare professional. They can help to determine the cause of your headaches and provide appropriate treatment.",,,2024-08-09 21:53:51.971862
+"I have a headace, what should I do?",,"If you have a headache, there are several things you can do to alleviate the pain and discomfort:
+
+1. Rest: Lying down in a quiet, dark room can help to reduce the intensity of the headache.
+
+2. Hydrate: Drinking water can help to prevent and relieve headaches. Dehydration can often cause or worsen headaches.
+
+3. Over-the-counter pain relievers: Taking an over-the-counter pain reliever like ibuprofen, acetaminophen, or aspirin can help to reduce the pain. Be sure to follow the recommended dosage.
+
+4. Cold or hot compress: Applying a cold or hot compress to your forehead or the back of your neck can help to soothe the pain.
+
+5. Stretch or massage: Gentle stretching or massage of the neck and shoulders can help to relieve tension that may be contributing to the headache.
+
+6. Avoid triggers: Identify and avoid any known triggers for your headaches, such as certain foods, drinks, or environmental factors.
+
+7. Relaxation techniques: Techniques such as deep breathing, meditation, or progressive muscle relaxation can help to reduce stress and tension, which can often cause headaches.
+
+8. Consult a healthcare professional: If your headaches are severe, frequent, or not responding to over-the-counter treatments, it's important to consult a healthcare professional. They can help to determine the cause of your headaches and provide appropriate treatment.",,,2024-08-09 21:53:53.880526
+Patient,Is this medicine harmful?,flagged\Prescription\9a0a5c21fb2a89215d2a\phpv2jvad.png,"'
+        No, this medicine is not harmful.",,,2024-08-09 23:24:20.215145
+Patient,Korean,이 약은 어떤 역할을 하나요?,flagged\Prescription\70eec823ed8e254d796d\korean_sample.png,"'
+        안녕하세요. 
+        한약제제 제품 처방입니다. 
+        제품명은 '정우연교패독산건액'이며, 정우신약(주)에서 제조한 제품입니다. 
+        제품은 단일추출물 혼합제품입니다. 
+        제품은 30,000개나 있습니다. 
+        제품의 가격은 9,521원입니다. 
+        도움이 되었기를 바랍니다. 
+        다른 질문이 있으시면 언제든지 물어보세요. 
+        감사합니다. 
+        Dr.",flagged\ocr_image\26074fcd419673981475\korean_sample.png_ocr.png,,,2024-08-12 22:50:45.662031

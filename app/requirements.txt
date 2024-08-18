@@ -1,0 +1,11 @@
+langchain_upstage
+langchain_core
+plotly
+gradio
+tavily-python
+predibase
+langchain_mongodb
+python-dotenv
+unstructured
+langchain_community
+langchain_experimental
