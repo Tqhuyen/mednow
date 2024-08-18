@@ -85,6 +85,8 @@ def get_anwser(language_prompt, history, question):
          
     if len(files) != 0:
         history.append((None, (res,)))
+    if language_prompt == "Korean":
+        ans = translate_en2ko(message=ans)
     history.append((None, ans))
     
     if language_prompt == "Korean":
@@ -97,13 +99,12 @@ def get_anwser(language_prompt, history, question):
             grounded_message ="This information is Grounded base on our database"
         else:
             grounded_message ="This information is NOT GROUNDED base on our database. You should double check it, or you can help us grounded this using 'Add data' tab"
-    if language_prompt == "Korean":
-        ans = translate_en2ko(message=ans)
+
     
     if language_prompt=="Korean":
         history.append((None, f"이건 단지 의료 정보일 뿐이에요, 만약 정말 문제가 있다면요. 가장 가까운 보건소로 가세요! \n {grounded_message}"))
-    history.append((None, f"This is only medical information, if you really have any problem. Please go to nearest Health Center! \n {grounded_message}"))
-    
+    else:
+        history.append((None, f"This is only medical information, if you really have any problem. Please go to nearest Health Center! \n {grounded_message}"))
     return history, gr.MultimodalTextbox(value=None, interactive=False)
 
 
@@ -158,12 +159,15 @@ with gr.Blocks(fill_height=False) as demo:
         chatbot.like(print_like_dislike, None, None)
     
         example = gr.Examples(examples=[
+        ["English",{"text": "What is Peumonia?", "files":[]}],
+        ["English",{"text": "What is amoxicilin?", "files":[]}],
+        ["Korean", {"text": "페니실린은 무엇에 사용되나요?", "files": []}],
         ["English",
          {"text": "What are these medicine and what are they used for?", "files": ["flagged/Prescription/9a0a5c21fb2a89215d2a/phpv2jvad.png"]}
          ],
-        ["English",{"text": "What is amoxicilin?", "files":[]}],
-        ["Korean", {"text": "페니실린은 무엇에 사용되나요?", "files": []}], 
-        ["Korean", {"text": "다음 처방에 나오는 약은 무엇입니까?", "files": ["flagged/Prescription/70eec823ed8e254d796d/korean_sample.png"]}],
+        ["Korean", {"text": "이 처방전에는 어떤 약이 들어 있으며 그 용도는 무엇입니까?", "files": ["flagged/Prescription/70eec823ed8e254d796d/korean_sample.png"]}],
+        ["English",{"text": "What is anemia?", "files":[]}],
+        ["Korean", {"text": "빈혈이란?", "files": []}],
         
     ],
         inputs=[language,chat_input])
