@@ -9,3 +9,4 @@ python-dotenv
 unstructured
 langchain_community
 langchain_experimental
+google-generativeai
